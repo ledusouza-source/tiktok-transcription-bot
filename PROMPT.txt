@@ -12,3 +12,5 @@ Your task:
 
 Original text:
 {TEXTO_ORIGINAL}
+
+#auto-deploy-trigger-v2
