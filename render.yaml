@@ -1,0 +1,14 @@
+version: 1
+services:
+  - type: web
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: TARGET_CHAT_ID
+        sync: false
+    buildCommands:
+      - apt-get update
+      - apt-get install -y ffmpeg
+      - pip install -r requirements.txt
