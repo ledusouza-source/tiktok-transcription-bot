@@ -11,6 +11,6 @@ services:
     buildCommands:
       - apt-get update
       - apt-get install -y ffmpeg
-      - pip install -r requirements.txt
+      - pip install -r requisitos.txt
     startCommand:
       - python bot.py      
